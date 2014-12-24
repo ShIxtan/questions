@@ -1,0 +1,7 @@
+require_relative 'questions_db.rb'
+require_relative 'savable.rb'
+require_relative 'question.rb'
+require_relative 'reply.rb'
+require_relative 'user.rb'
+require_relative 'question_follower.rb'
+require_relative 'question_like.rb'
