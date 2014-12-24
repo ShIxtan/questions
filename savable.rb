@@ -48,7 +48,7 @@ module Queriable
 
     results.map { |reply| new(reply) }.last
   end
-
+  #
   def all
     results = execute("SELECT * FROM #{table}")
     results.map { |result| new(result) }
